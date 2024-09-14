@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, "Source Sans 3", "Open Sans", Arial, sans-serif;
+}
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+
+  &:hover {
+    transition: all 0.3s ease;
+
+    background-color: #efeeee;
+  }
+
+  &:active {
+    transform: scale(0.94);
+  }
+}
+
+a {
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+li {
+  list-style: none;
+}
+
+// HEADER QISMI
+
+.header {
+  background-color: #fff;
+  box-shadow: 0px 20px 40px 0px #ffae004a;
+  box-shadow: 0px 5px 10px 0px #ffae0042;
+
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 10px;
+  }
+  .header-center a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+}
+
+.header-center a {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: center;
+  color: #424242;
+
+  span {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: center;
+    color: #424242;
+  }
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 118px;
+    height: 46px;
+    padding: 14px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 20px 40px 0px #ffae004a;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px 0px #ffae0042;
+    &:hover {
+      background-color: #e8e5e5;
+    }
+  }
+
+  .header-right-two {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  input {
+    border: none;
+
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #424242;
+
+    width: 98px;
+    height: 18px;
+  }
+}
+
+// HERO QISMI
+
+.hero__container {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffb30e;
+
+  padding: 90px 10px;
+
+  h1 {
+    box-shadow: 0px 27px 82px 0px #ffae0047;
+    font-family: "Source Sans Pro";
+    color: #fff;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    text-align: left;
+  }
+}
